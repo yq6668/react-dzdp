@@ -1,0 +1,21 @@
+.App {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    .app_head {
+        background-color: red;
+        flex: 0 0 auto;
+    }
+
+    .app_body {
+        height: calc(100vh - 96px);
+        flex: 1 1 auto;
+        overflow: auto;
+    }
+
+    .app_foot {
+        border-top: gainsboro 1px solid;
+        box-sizing: border-box;
+        flex: 0 0 auto;
+    }
+}

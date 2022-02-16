@@ -1,0 +1,23 @@
+.content {
+    height         : 200px;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    align-items    : center;
+    font-size      : 12px;
+    user-select    : none;
+    list-style     : none;
+    text-align     : center;
+    font-weight    : bold;
+    padding: 0;
+
+    .cateitem {
+        width : 20%;
+        height: 50%;
+
+        .icon {
+            width : 70%;
+            height: 60%;
+        }
+    }
+}
